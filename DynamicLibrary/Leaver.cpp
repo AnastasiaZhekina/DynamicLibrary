@@ -2,7 +2,7 @@
 
 namespace Leaver {
 
-	void Leaver::greet() {
+	void Leaver::leave() {
 		cout << "Введите имя: ";
 		cin >> name; cout << "Здравствуйте, " << name << "!";
 	};

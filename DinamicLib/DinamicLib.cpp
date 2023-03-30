@@ -11,5 +11,5 @@ int main() {
 	SetConsoleOutputCP(1251);
 
 	Leaver::Leaver person;
-	person.greet();
+	person.leave();
 }

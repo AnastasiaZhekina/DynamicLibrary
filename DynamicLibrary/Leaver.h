@@ -13,6 +13,6 @@ namespace Leaver{
 class Leaver {
 	string name;
 public:
-	DINAMICLIBRARY_API void greet();
+	DINAMICLIBRARY_API void leave();
 };
 }
