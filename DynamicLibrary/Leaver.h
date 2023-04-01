@@ -1,8 +1,8 @@
 #pragma once 
-#ifdef DINAMICLIBRARY_EXPORTS
-#define DINAMICLIBRARY_API __declspec(dllexport)
+#ifdef DYAMICLIBRARY_EXPORTS
+#define DYNAMICLIBRARY_API __declspec(dllexport)
 #else
-#define DINAMICLIBRARY_API __declspec(dllimport)
+#define DYNAMICLIBRARY_API __declspec(dllimport)
 #endif 
 
 #include <iostream> 
@@ -13,6 +13,6 @@ namespace Leaver{
 class Leaver {
 	string name;
 public:
-	DINAMICLIBRARY_API void leave();
+	DYNAMICLIBRARY_API void leave();
 };
 }
